@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="339.0" prefWidth="364.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CalculatorController">
+   <children>
+      <TextField fx:id="txtInput" prefHeight="68.0" prefWidth="364.0" />
+      <Button fx:id="btnSeven" layoutY="68.0" mnemonicParsing="false" onAction="#btnSeven_OnAction" prefHeight="68.0" prefWidth="91.0" text="7" />
+      <Button fx:id="btnFive" layoutX="91.0" layoutY="136.0" mnemonicParsing="false" onAction="#btnFive_OnAction" prefHeight="68.0" prefWidth="91.0" text="5" />
+      <Button fx:id="btnFour" layoutY="136.0" mnemonicParsing="false" onAction="#btnFour_OnAction" prefHeight="68.0" prefWidth="91.0" text="4" />
+      <Button fx:id="btnEight" layoutX="91.0" layoutY="68.0" mnemonicParsing="false" onAction="#btnEight_OnAction" prefHeight="68.0" prefWidth="91.0" text="8" />
+      <Button fx:id="btnNine" layoutX="182.0" layoutY="68.0" mnemonicParsing="false" onAction="#btnNine_OnAction" prefHeight="68.0" prefWidth="91.0" text="9" />
+      <Button layoutX="273.0" layoutY="136.0" mnemonicParsing="false" onAction="#btnSub_OnAction" prefHeight="68.0" prefWidth="91.0" text="-" />
+      <Button fx:id="btnSix" layoutX="182.0" layoutY="136.0" mnemonicParsing="false" onAction="#btnSix_OnAction" prefHeight="68.0" prefWidth="91.0" text="6" />
+      <Button fx:id="btnMul" layoutX="273.0" layoutY="68.0" mnemonicParsing="false" onAction="#btnMul_OnAction" prefHeight="68.0" prefWidth="91.0" text="×" />
+      <Button layoutY="204.0" mnemonicParsing="false" onAction="#btnOne_OnAction" prefHeight="68.0" prefWidth="91.0" text="1" />
+      <Button layoutX="91.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnZero_OnAction" prefHeight="68.0" prefWidth="91.0" text="0" />
+      <Button layoutY="272.0" mnemonicParsing="false" onAction="#btnClear_OnAction" prefHeight="68.0" prefWidth="91.0" text="C" />
+      <Button layoutX="91.0" layoutY="204.0" mnemonicParsing="false" onAction="#btnTwo_OnAction" prefHeight="68.0" prefWidth="91.0" text="2" />
+      <Button layoutX="182.0" layoutY="204.0" mnemonicParsing="false" onAction="#btnThree_OnAction" prefHeight="68.0" prefWidth="91.0" text="3" />
+      <Button layoutX="273.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnEqual_OnAction" prefHeight="68.0" prefWidth="91.0" text="=" />
+      <Button layoutX="182.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnDecimal_OnAction" prefHeight="68.0" prefWidth="91.0" text="." />
+      <Button layoutX="273.0" layoutY="204.0" mnemonicParsing="false" onAction="#btnAdd_OnAction" prefHeight="68.0" prefWidth="91.0" text="+" />
+   </children>
+</AnchorPane>
